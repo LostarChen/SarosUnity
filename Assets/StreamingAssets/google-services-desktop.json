@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "991260782401",
+    "firebase_url": "https://saros-a89e0-default-rtdb.firebaseio.com",
+    "project_id": "saros-a89e0",
+    "storage_bucket": "saros-a89e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991260782401:android:2d768dc822f093567cbbc0",
+        "android_client_info": {
+          "package_name": "saros.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Kjr3cvMNQAQLdQhn5JKOXmKZ59KUp1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
