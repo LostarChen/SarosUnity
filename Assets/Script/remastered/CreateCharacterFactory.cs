@@ -30,8 +30,6 @@ public class CreateCharacterFactory : MonoBehaviour
         }
         return _CharacterSprites[0];
     }
-
-
 }
 [System.Serializable]
 public class Player

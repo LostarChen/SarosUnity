@@ -32,7 +32,6 @@ public class Line : MonoBehaviour
     }
     private void Start()
     {
-        //Destroy(this.gameObject, 100);
         StartCoroutine(UpdateAlpha());
     }
     IEnumerator UpdateAlpha()
@@ -40,7 +39,7 @@ public class Line : MonoBehaviour
         while (alpha >= 0)
         {
             alpha -= 0.01f;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(5);
             lineRender.endColor = new Color(lineRender.endColor.r, lineRender.endColor.g, lineRender.endColor.b, alpha);
         }
             Destroy(this.gameObject); 
